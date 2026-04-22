@@ -2,34 +2,40 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - GolShop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icono-golshop.png">
 </head>
 <body>
 
-<nav>
-    <img src="icono-golshop.png" width="50" style="vertical-align: middle;">
-    <span style="vertical-align: middle;">GolShop</span> |
-    <a href="index.html">Home</a> |
-    <a href="categoria-futbol.html">Fútbol</a> |
-    <a href="categoria-basquet.html">Básquet</a> |
-    <a href="categoria-otros.html">Otros Deportes</a> |
-    <a href="login.html">Login</a> |
-    <a href="registro.html">Registro</a> |
-    <a href="#">Logout</a>
-</nav>
+    <nav>
+        <img src="icono-golshop.png" alt="Icono de GolShop">
+        <span>GolShop</span>
+        <a href="index.html">Home</a>
+        <a href="categoria-futbol.html">Fútbol</a>
+        <a href="categoria-basquet.html">Básquet</a>
+        <a href="categoria-otros.html">Otros Deportes</a>
+        <a href="login.html">Login</a>
+        <a href="registro.html">Registro</a>
+        <a href="#">Logout</a>
+    </nav>
 
-<hr>
-    <h1>Login</h1>
+    <main>
+        <div class="form-container">
+            <h1>Login</h1>
 
-    <form action="#" method="post">
-        <label>Email:</label><br>
-        <input type="email" required><br><br>
+            <form action="#" method="post">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-        <label>Contraseña:</label><br>
-        <input type="password" required><br><br>
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" required>
 
-        <button type="submit">Ingresar</button>
-    </form>
+                <button type="submit">Ingresar</button>
+            </form>
+        </div>
+    </main>
 
 </body>
 </html>
