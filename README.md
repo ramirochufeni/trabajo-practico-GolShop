@@ -1,4 +1,4 @@
-# 44.827.097 - Trabajo Practico primera etapa - Ramiro Chufeni
+# 44.827.097 - Trabajo Practico GolShop - Ramiro Chufeni
 
 ## Materia
 Aplicaciones Web 1
@@ -6,14 +6,25 @@ Aplicaciones Web 1
 ## Proyecto
 GolShop
 
-## Descripción del proyecto
-Este proyecto corresponde a la primera etapa de una aplicación web de ecommerce llamada GolShop.
+## Descripción
+Ecommerce deportivo desarrollado por etapas.
 
-Incluye:
+## Etapa 1
+- Estructura HTML del sitio
 - Página principal
-- Página de login
-- Página de registro
-- Páginas de categorías
+- Login
+- Registro
+- Categorías
+
+## Etapa 2
+- Estilos con CSS
+- Paleta de colores
+- Navbar estilizado
+- Login y registro estilizados
+- Card de producto
+- Layout general
+- Uso de imágenes y gif
+- Identidad visual de la tienda
 
 ## Categorías
 - Fútbol
@@ -21,5 +32,4 @@ Incluye:
 - Otros Deportes
 
 ## Vista previa
-
 Abrir index.html para navegar por el sitio.
