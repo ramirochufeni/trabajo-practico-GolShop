@@ -9,38 +9,22 @@
 </head>
 <body>
 
-    <nav>
-        <img src="icono-golshop.png" alt="Icono de GolShop">
-        <span>GolShop</span>
-        <a href="index.html">Home</a>
-        <a href="categoria-futbol.html">Fútbol</a>
-        <a href="categoria-basquet.html">Básquet</a>
-        <a href="categoria-otros.html">Otros Deportes</a>
-        <a href="login.html">Login</a>
-        <a href="registro.html">Registro</a>
-        <a href="#">Logout</a>
-    </nav>
+    <div id="navbar"></div>
 
     <header>
-    <div class="header-content">
-        <h1>GolShop</h1>
-        <p>Tu tienda online de artículos deportivos</p>
+        <div class="header-content">
+            <h1>GolShop</h1>
+            <p>Tu tienda online de artículos deportivos</p>
 
-        <img src="gif-home.gif" alt="Presentación"
-             style="width: 100%; max-width: 500px; margin-top: 20px; border-radius: 10px;">
-    </div>
-</header>
+            <img src="gif-home.gif" alt="Presentación de GolShop"
+                 style="width: 100%; max-width: 500px; margin-top: 20px; border-radius: 10px;">
+        </div>
+    </header>
 
     <main>
-        <section class="seccion-cards">
-            <article class="card">
-                <img src="imagenes/botines.webp" alt="Botines Pro">
-                <h3>Botines Profesionales PUMA</h3>
-                <p>Modelo que usa Neymar en todos sus partidos.</p>
-                <button>Ver producto</button>
-            </article>
-        </section>
+        <section id="productos" class="seccion-cards"></section>
     </main>
 
+    <script type="module" src="js/pages/home.js"></script>
 </body>
 </html>
