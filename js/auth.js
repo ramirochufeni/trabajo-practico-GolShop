@@ -1,17 +1,26 @@
 export function loginUsuario() {
     localStorage.setItem("usuarioLogueado", "true");
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
 }
 
-export function logoutUsuario() {
+export function logoutUsuario(estaEnPages = false) {
     localStorage.removeItem("usuarioLogueado");
-    window.location.href = "login.html";
+
+    if (estaEnPages) {
+        window.location.href = "login.html";
+    } else {
+        window.location.href = "pages/login.html";
+    }
 }
 
-export function verificarSesion() {
+export function verificarSesion(estaEnPages = false) {
     const usuarioLogueado = localStorage.getItem("usuarioLogueado");
 
     if (usuarioLogueado !== "true") {
-        window.location.href = "login.html";
+        if (estaEnPages) {
+            window.location.href = "login.html";
+        } else {
+            window.location.href = "pages/login.html";
+        }
     }
 }

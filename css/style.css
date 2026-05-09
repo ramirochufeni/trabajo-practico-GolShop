@@ -43,8 +43,22 @@ nav a:hover {
     background-color: #1e7a34;
 }
 
+nav button {
+    background-color: white;
+    color: #14532d;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #d1fae5;
+}
+
 header {
-    background-image: url("imagenes/fondo.webp");
+    background-image: url("../img/fondo.webp");
     background-size: cover;
     background-position: center;
     padding: 80px 20px;
@@ -52,7 +66,6 @@ header {
     position: relative;
     color: white;
 }
-
 
 header::before {
     content: "";
@@ -63,7 +76,6 @@ header::before {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
 }
-
 
 .header-content {
     position: relative;
@@ -77,6 +89,13 @@ header::before {
 
 .header-content p {
     font-size: 22px;
+}
+
+.gif-home {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 main {
@@ -119,18 +138,38 @@ main {
     color: #555555;
 }
 
-.card button {
-    background-color: #1e7a34;
-    color: white;
-    border: none;
-    padding: 12px 18px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
+.precio {
+    font-size: 20px;
+    font-weight: bold;
+    color: #14532d;
 }
 
-.card button:hover {
-    background-color: #0f4d22;
+.cantidad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.cantidad-container button {
+    background-color: #14532d;
+    color: white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cantidad-container button:hover {
+    background-color: #1e7a34;
+}
+
+.cantidad {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .form-container {
@@ -184,52 +223,4 @@ form button:hover {
     margin: 40px 0 30px 0;
     font-size: 40px;
     color: #14532d;
-}
-
-nav button {
-    background-color: #ffffff;
-    color: #14532d;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-nav button:hover {
-    background-color: #d1fae5;
-}
-
-.precio {
-    font-size: 20px;
-    font-weight: bold;
-    color: #14532d;
-}
-
-.cantidad-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-top: 15px;
-}
-
-.cantidad-container button {
-    background-color: #14532d;
-    color: white;
-    border: none;
-    width: 35px;
-    height: 35px;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.cantidad-container button:hover {
-    background-color: #1e7a34;
-}
-
-.cantidad {
-    font-size: 20px;
-    font-weight: bold;
 }

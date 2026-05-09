@@ -5,14 +5,14 @@ export const paginas = [
     },
     {
         titulo: "Fútbol",
-        direccion: "categoria-futbol.html"
+        direccion: "pages/categoria-futbol.html"
     },
     {
         titulo: "Básquet",
-        direccion: "categoria-basquet.html"
+        direccion: "pages/categoria-basquet.html"
     },
     {
         titulo: "Otros Deportes",
-        direccion: "categoria-otros.html"
+        direccion: "pages/categoria-otros.html"
     }
 ];

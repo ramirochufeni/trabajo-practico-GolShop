@@ -1,7 +1,9 @@
-export function crearCardProducto(producto) {
+export function crearCardProducto(producto, estaEnPages = false) {
+    const prefijo = estaEnPages ? "../" : "";
+
     return `
         <article class="card">
-            <img src="${producto.imagen}" alt="${producto.titulo}">
+            <img src="${prefijo}${producto.imagen}" alt="${producto.titulo}">
             <h3>${producto.titulo}</h3>
             <p>${producto.descripcion}</p>
             <p class="precio">$${producto.precio}</p>

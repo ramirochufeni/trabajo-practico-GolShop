@@ -5,7 +5,7 @@ export const productos = [
         titulo: "Botines Pro",
         descripcion: "Botines PUMA pensados para un mejor rendimiento en cancha.",
         precio: 85000,
-        imagen: "imagenes/botines.webp"
+        imagen: "img/botines.webp"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const productos = [
         titulo: "Pelota Profesional",
         descripcion: "Pelota de fútbol resistente para entrenamientos y partidos.",
         precio: 45000,
-        imagen: "imagenes/pelota-futbol.webp"
+        imagen: "img/pelota-futbol.webp"
     },
     {
         id: 3,
@@ -21,14 +21,14 @@ export const productos = [
         titulo: "Pelota de Básquet",
         descripcion: "Pelota de básquet con buen agarre y diseño deportivo.",
         precio: 52000,
-        imagen: "imagenes/pelota-basquet.webp"
+        imagen: "img/pelota-basquet.webp"
     },
     {
         id: 4,
         categoria: "otros",
         titulo: "Accesorio Deportivo",
-        descripcion: "Accesorio ideal, canilleras Adidas para complementar tus entrenamientos.",
+        descripcion: "Canilleras Adidas, ideal para complementar tus entrenamientos.",
         precio: 25000,
-        imagen: "imagenes/accesorio.webp"
+        imagen: "img/accesorio.webp"
     }
 ];
