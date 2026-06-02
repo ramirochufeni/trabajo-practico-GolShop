@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "categoria": "futbol",
+        "titulo": "Botines Pro",
+        "descripcion": "Botines PUMA pensados para un mejor rendimiento en cancha.",
+        "precio": 85000,
+        "imagen": "img/botines.webp"
+    },
+    {
+        "id": 2,
+        "categoria": "futbol",
+        "titulo": "Pelota Profesional",
+        "descripcion": "Pelota de fútbol resistente para entrenamientos y partidos.",
+        "precio": 45000,
+        "imagen": "img/pelota-futbol.webp"
+    },
+    {
+        "id": 3,
+        "categoria": "futbol",
+        "titulo": "Canilleras Deportivas",
+        "descripcion": "Canilleras Adidas, ideal para complementar tus entrenamientos.",
+        "precio": 18000,
+        "imagen": "img/accesorio.webp"
+    },
+    {
+        "id": 4,
+        "categoria": "basquet",
+        "titulo": "Pelota de Básquet",
+        "descripcion": "Pelota de básquet con buen agarre y diseño deportivo.",
+        "precio": 52000,
+        "imagen": "img/pelota-basquet.webp"
+    },
+    {
+        "id": 5,
+        "categoria": "basquet",
+        "titulo": "Zapatillas de Básquet",
+        "descripcion": "Zapatillas cómodas para entrenar y jugar partidos.",
+        "precio": 95000,
+        "imagen": "img/zapasbasquet.webp"
+    },
+    {
+        "id": 6,
+        "categoria": "basquet",
+        "titulo": "Muñequera Deportiva",
+        "descripcion": "Accesorio ideal para entrenamientos y competencia.",
+        "precio": 12000,
+        "imagen": "img/accesoriobasquet.webp"
+    },
+    {
+        "id": 7,
+        "categoria": "otros",
+        "titulo": "Accesorio Deportivo",
+        "descripcion": "Vincha y muñequera verde para complementar tus entrenamientos diarios.",
+        "precio": 25000,
+        "imagen": "img/accesoriodos.webp"
+    },
+    {
+        "id": 8,
+        "categoria": "otros",
+        "titulo": "Kit de Entrenamiento",
+        "descripcion": "Kit básico para actividades físicas y entrenamiento general.",
+        "precio": 40000,
+        "imagen": "img/kit.webp"
+    },
+    {
+        "id": 9,
+        "categoria": "otros",
+        "titulo": "Bolso Deportivo",
+        "descripcion": "Bolso práctico para llevar indumentaria y accesorios.",
+        "precio": 38000,
+        "imagen": "img/bolso.webp"
+    }
+]

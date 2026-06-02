@@ -37,10 +37,22 @@ Ecommerce deportivo desarrollado por etapas.
 - Manejo de cantidades con botones para sumar y restar productos
 - Organización del proyecto en carpetas para mejorar la mantenibilidad
 
+## Etapa 4
+- Creación de una estructura JSON para los productos
+- Carga de productos mediante `fetch`
+- Cards dinámicas según la categoría del producto
+- Página principal con varios productos por categoría
+- Guardado del usuario logueado en `sessionStorage`
+- Guardado de productos agregados al carrito en `localStorage`
+- Página de carrito de compras
+- Visualización de productos agregados al carrito
+- Posibilidad de eliminar productos del carrito
+- Cards con título, imagen, descripción, precio, selector de cantidad y botón para añadir al carrito
+
 ## Categorías
 - Fútbol
 - Básquet
 - Otros Deportes
 
 ## Vista previa
-Para visualizar correctamente el proyecto, se recomienda abrirlo con la extensión Live Server desde Visual Studio Code.
+Para visualizar correctamente el proyecto, se recomienda abrirlo con la extensión Live Server desde Visual Studio Code ya que el proyecto utiliza módulos de JavaScript y `fetch`.

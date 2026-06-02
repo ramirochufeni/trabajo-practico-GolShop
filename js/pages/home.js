@@ -1,17 +1,18 @@
 import { verificarSesion } from "../auth.js";
 import { crearNavbar } from "../components/navbar.js";
-import { productos } from "../data/productos.js";
-import { crearCardProducto, activarBotonesCantidad } from "../components/productCard.js";
+import { crearCardProducto, activarBotonesProductos } from "../components/productCard.js";
 
 verificarSesion(false);
 crearNavbar(false);
 
 const contenedorProductos = document.getElementById("productos");
 
-const productosHome = productos.filter(producto => producto.categoria === "home");
+fetch("js/data/productos.json")
+    .then(response => response.json())
+    .then(productos => {
+        productos.forEach(producto => {
+            contenedorProductos.innerHTML += crearCardProducto(producto, false);
+        });
 
-productosHome.forEach(producto => {
-    contenedorProductos.innerHTML += crearCardProducto(producto, false);
-});
-
-activarBotonesCantidad();
+        activarBotonesProductos(productos);
+    });

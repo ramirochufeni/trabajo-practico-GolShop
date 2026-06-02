@@ -1,22 +1,18 @@
-import { paginas } from "../data/paginas.js";
 import { logoutUsuario } from "../auth.js";
 
 export function crearNavbar(estaEnPages = false) {
     const navbar = document.getElementById("navbar");
-
     const prefijo = estaEnPages ? "../" : "";
-
-    let links = "";
-
-    paginas.forEach(pagina => {
-        links += `<a href="${prefijo}${pagina.direccion}">${pagina.titulo}</a>`;
-    });
 
     navbar.innerHTML = `
         <nav>
             <img src="${prefijo}img/icono-golshop.png" alt="Icono de GolShop">
             <span>GolShop</span>
-            ${links}
+            <a href="${prefijo}index.html">Home</a>
+            <a href="${prefijo}pages/categoria-futbol.html">Fútbol</a>
+            <a href="${prefijo}pages/categoria-basquet.html">Básquet</a>
+            <a href="${prefijo}pages/categoria-otros.html">Otros Deportes</a>
+            <a href="${prefijo}pages/carrito.html">Carrito</a>
             <button id="btnLogout">Logout</button>
         </nav>
     `;

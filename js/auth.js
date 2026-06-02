@@ -1,10 +1,10 @@
 export function loginUsuario() {
-    localStorage.setItem("usuarioLogueado", "true");
+    sessionStorage.setItem("usuarioLogueado", "true");
     window.location.href = "../index.html";
 }
 
 export function logoutUsuario(estaEnPages = false) {
-    localStorage.removeItem("usuarioLogueado");
+    sessionStorage.removeItem("usuarioLogueado");
 
     if (estaEnPages) {
         window.location.href = "login.html";
@@ -14,7 +14,7 @@ export function logoutUsuario(estaEnPages = false) {
 }
 
 export function verificarSesion(estaEnPages = false) {
-    const usuarioLogueado = localStorage.getItem("usuarioLogueado");
+    const usuarioLogueado = sessionStorage.getItem("usuarioLogueado");
 
     if (usuarioLogueado !== "true") {
         if (estaEnPages) {
