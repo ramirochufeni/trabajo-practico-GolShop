@@ -1,9 +1,11 @@
 import { verificarSesion } from "../auth.js";
 import { crearNavbar } from "../components/navbar.js";
 import { crearCardProducto, activarBotonesProductos } from "../components/productCard.js";
+import { crearFooter } from "../components/footer.js";
 
 verificarSesion(false);
 crearNavbar(false);
+crearFooter();
 
 const contenedorProductos = document.getElementById("productos");
 
